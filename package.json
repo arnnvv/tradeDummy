@@ -1,0 +1,20 @@
+{
+  "name": "trade",
+  "version": "1.0.0",
+  "scripts": {
+    "f": "prettier --write \"**/*.{ts,tsx,js,jsx,mjs,js,md}\"",
+    "b": "pnpm exec tsc -b",
+    "d": "node dist/src/server.js"
+  },
+  "author": "arnnvv",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ws": "^8.5.13",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "uuid": "^11.0.3",
+    "ws": "^8.18.0"
+  }
+}
